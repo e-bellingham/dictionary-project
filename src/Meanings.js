@@ -1,6 +1,6 @@
 // Meanings.js
 import React from "react";
-
+import "./Meanings.css";
 export default function Meanings({ meaning }) {
   if (meaning) {
     return (
