@@ -4,7 +4,6 @@ import "./Dictionary.css";
 
 export default function Dictionary(event) {
   let [keyword, setKeyword] = useState(" ");
-  const axios = require("axios");
 
   const apiKey = "26abe423762oeff8b3623ddt062bace3";
   const apiURL = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
