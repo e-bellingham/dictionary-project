@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useState } from "react";
 import "./Dictionary.css";
 
-export default function Dictionary(event) {
+export default function Dictionary() {
   let [keyword, setKeyword] = useState(" ");
 
   const apiKey = "26abe423762oeff8b3623ddt062bace3";
