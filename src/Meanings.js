@@ -5,11 +5,10 @@ export default function Meanings({ meaning }) {
     return (
       <div className="Meanings">
         <p>
+          <strong className="partOfSpeech">- {meaning.partOfSpeech} -</strong>
+          <br />
           <strong>Definition:</strong>
           {meaning.definition}
-          <br />
-
-          <strong className="partOfSpeech"> {meaning.partOfSpeech}</strong>
           <br />
           <strong>Example:</strong>
           {meaning.example}
@@ -17,6 +16,7 @@ export default function Meanings({ meaning }) {
           <strong>Synonyms:</strong>
           {meaning.synonyms}
         </p>
+        <hr />
       </div>
     );
   } else {
