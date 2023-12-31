@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="body">
-        <h1>Dictionary</h1>
+        <h1>.Dictionary.</h1>
         <Dictionary />
       </div>
       <footer>

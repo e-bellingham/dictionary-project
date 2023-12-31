@@ -1,6 +1,9 @@
 .Meanings {
   padding-left: 60px;
 }
+.partOfSpeech {
+  font-size: 18px;
+}
 p {
   padding-left: 10px;
   padding-right: 10px;

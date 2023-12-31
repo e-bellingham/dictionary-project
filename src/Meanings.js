@@ -8,8 +8,8 @@ export default function Meanings({ meaning }) {
           <strong>Definition:</strong>
           {meaning.definition}
           <br />
-          <strong>Part of Speech:</strong>
-          {meaning.partOfSpeech}
+
+          <strong className="partOfSpeech"> {meaning.partOfSpeech}</strong>
           <br />
           <strong>Example:</strong>
           {meaning.example}
