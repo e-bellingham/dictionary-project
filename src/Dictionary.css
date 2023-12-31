@@ -26,3 +26,15 @@ h2 {
   font-size: 38px;
   letter-spacing: 0.75px;
 }
+p {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 1px;
+  font-size: 18px;
+  color: #9853cd;
+}
+small {
+  padding-left: 279px;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
